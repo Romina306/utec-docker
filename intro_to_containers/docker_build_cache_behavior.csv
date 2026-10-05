@@ -1,0 +1,5 @@
+Instruction,Cached,Description
+FROM,Yes,Reused base image layer
+COPY,Yes,File context unchanged
+RUN,No,Command changed to install additional packages
+CMD,No,Re-evaluated due to previous layer change
